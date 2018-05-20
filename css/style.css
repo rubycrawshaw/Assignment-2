@@ -8,7 +8,6 @@ body {
 .navblock {
     height: 150px;
 }
-
 /* sm */
 @media (min-width:576px){}
 
