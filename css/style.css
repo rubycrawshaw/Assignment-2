@@ -1,4 +1,5 @@
 body {
+    background-color: #F0EFEF;
     
 }
 .blue {
@@ -21,6 +22,7 @@ body {
    background-color: mediumvioletred;
     height: 100px; 
 }
+
 
 
 .grey {
@@ -91,8 +93,7 @@ body {
     .pink {
         background-color: hotpink;
         height: 60px;
-        margin-top: 20px;
-        margin-left:20px;
+               
     }
 
 }
