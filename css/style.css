@@ -4,31 +4,6 @@ body {
     background-color: #F0EFEF;
     
 }
-
-.blue {
-    background-color: cornflowerblue;
-    height: 50px;
-}
-
-.green {
-    background-color: limegreen;
-    height: 150px;
-}
-
-.orange {
-   background-color: orange;
-    height: 400px;
-    padding-bottom: 20px;
-}
-
-.red {
-   background-color: mediumvioletred;
-    height: 100px; 
-}
-
-
-
-
 .grey {
    background-color: grey; 
    width: 120px;
@@ -38,88 +13,13 @@ body {
 }
 
 /* sm */
-@media (min-width:576px){
-   
-    .red {
-        height: 200px;
-    }
-    
-    .orange {
-        height: 300px;
-    }
-    
-    .green {
-        height: 200px;
-    }
-    .grey {
-        margin-left: 20px;
-    
-    }
-    
-}
+@media (min-width:576px){}
 
 /* md */
-@media (min-width:768px){
-   
-  .red {
-        height: 500px;
-    }
-    
-    .orange {
-        height: 500px;
-    }
-    
-    .green {
-        height: 200px;
-    }
-    
-    .grey {
-        
-    }
-   
-}
+@media (min-width:768px){}
 
 /* lg */
-@media (min-width:922px){
-   
-    .red {
-        height: 500px;
-    }
-    
-    .orange {
-        height: 500px;
-    }
-    
-    .green {
-        height: 500px;
-    }
-    
-    .pink {
-        background-color: hotpink;
-        height: 60px;
-               
-    }
-
-}
+@media (min-width:922px){}
 
 /* xl */
-@media (min-width:1200px){
-   
-       .red {
-        height: 500px;
-    }
-    
-    .orange {
-        height: 500px;
-    }
-    
-    .green {
-        height: 500px;
-    }
-    
-    .grey {
-        height: 60px;
-        margin-top: 20px;
-    }
-
-}
+@media (min-width:1200px){}
