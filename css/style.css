@@ -4,42 +4,6 @@ body {
     background-color: #F0EFEF;
     
 }
-<<<<<<< HEAD
-
-
-.blue {
-    background-color: cornflowerblue;
-    height: 50px;
-}
-
-.green {
-    background-color: limegreen;
-    height: 150px;
-}
-
-.orange {
-   background-color: orange;
-    height: 400px;
-    padding-bottom: 20px;
-}
-
-.red {
-   background-color: mediumvioletred;
-    height: 100px; 
-}
-
-
-
-
-=======
->>>>>>> cb3739d3d2cb70aa5d8780f4c927a813218a4767
-.grey {
-   background-color: grey; 
-   width: 120px;
-    margin-left: 20px;
-    margin-top: 20px;
-    
-}
 
 /* sm */
 @media (min-width:576px){}
