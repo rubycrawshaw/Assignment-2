@@ -8,14 +8,50 @@ body {
 .navblock {
     height: 150px;
 }
+
+.pink{
+    text-align: center;
+    background-color: white;
+    
+}
+
+.checkout {
+    text-align: center;
+    background-color: aquamarine;
+    height: 200px;
+         
+ }
+
 /* sm */
-@media (min-width:576px){}
+@media (min-width:576px){
+    
+
+}
 
 /* md */
-@media (min-width:768px){}
+@media (min-width:768px){
+body {
+    background-color: aqua;
+ }
+    
+.pink{
+      
+ }
+    
+}
 
 /* lg */
-@media (min-width:922px){}
+@media (min-width:922px){
+    
+body {
+    background-color: chocolate;
+}
+    
+.pink{
+      
+ }
+    
+}
 
 /* xl */
 @media (min-width:1200px){}
