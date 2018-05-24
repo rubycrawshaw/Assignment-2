@@ -23,7 +23,7 @@
     <title>휴의 골판지</title>
         
       <style>
-        *{outline: #ffffff solid 1px}   
+        *{outline: #ffffff solid 0px}   
       </style>
       
 
@@ -33,13 +33,14 @@
       
     <div class="navblock"></div>
         <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html" style="color: white;">휴의 골판지</a>
+             <div class="container-fluid d-flex justify-content-center">
+               
+                 <a class="navbar-brand" href="index.html" style="color: white; font-size:40px">휴의 골판지</a>
+                
+                   <a href="checkout.html" class="col-12 fas fa-shopping-cart fa-2x d-flex justify-content-end" style="color: white"></a>
                  
             </div>
-        
-        <ul class="col-12 fas fa-shopping-cart fa-2x justify-content-end" style="color: white"></ul>
-    </nav>
+        </nav>
     
      <div class="container">
         <div class="row no-gutters">
@@ -67,25 +68,16 @@
      </div>
         
     <div class="container">
-        <div class="row no-gutters">
+        <div class="row no-gutters justify-content-center">
             
-            <div class="col-sm-12 col-md-12 coll-lg-12 checkout">
+            <div class="col-sm-12 col-md-12 col-lg-12 checkout">
                 <h3>Shopping Cart Summery</h3>
+                <h4>Items in cart</h4>
+                <h4>Total</h4>
+                <button type="button" class="btn btn-outline-secondary">Checkout</button>
              </div>
             
-           <div class="col-sm-8 col-md-10 coll-lg-10">
-               <h4>Items in cart</h4>
-            </div>
-            
-            <div class="col-sm-4 col-md-2 coll-lg-2">
-               <h4>Total</h4>
-            </div>
-                
-            //checkout
-            //need help?
-            //help line
-            //clear cart
-                
+        
             
     
         </div>
