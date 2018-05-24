@@ -44,6 +44,15 @@ body {
     font-size: 16px;
     padding: 16px 32px;
 }
+
+.text_2{
+    background-color: black;
+    color: pink;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+
 .image_container2:hover .image{
     opacity: 0.3;
 }
