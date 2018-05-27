@@ -11,6 +11,13 @@ body {
     text-align: center;
     background-color: white;
 }
+
+.black{
+    margin-top: 20px;
+    align-content: center;
+    text-align: center;
+}
+
 .blue{
     text-align: left;
     background-color: white;

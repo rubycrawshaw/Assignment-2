@@ -29,7 +29,52 @@
 
   </head>
   
-  <body>
+    <script>
+    
+        function prossess(){
+            
+            var foo = getParameterByName('a');
+            if(foo == null)
+            {
+                // don't do anything.
+            }
+            else
+            {
+                var h1full = document.getElementById('full');
+                var h1empty = document.getElementById('empty');
+                
+                
+                if(foo == 'empty'){
+                    h1empty.style.display = "block";
+                    h1full.style.display = "none";
+                }
+                
+                if(foo == 'full'){
+                    h1empty.style.display = "none";
+                    h1full.style.display = "block";
+                }
+            }
+            
+            
+            //alert(foo);
+            
+            //var empty = getParameterByName('b');
+            //  alert(empty);
+            
+ }
+        
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+            results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+        
+    </script>
+  <body onload="prossess()">
       
     <div class="navblock">
         <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -43,7 +88,9 @@
         </nav>
       </div>
       
-      <div class="container">
+<h1 id="empty">empty</h1>
+      
+<!--      <div class="container">
         <div class="row no-gutters justify-content-center">
             
             <div class="col-sm-12 col-md-12 col-lg-12 checkout">
@@ -51,9 +98,9 @@
             </div>
 
         </div>
-     </div>
+     </div> -->
     
-     <!--<div class="container">
+     <div id="full" class="container" style="display: none">
         <div class="row no-gutters">
            
             <div class="col-sm-12 col-md-12 col-lg-12 blue">
@@ -63,8 +110,8 @@
 
             
         </div>
-<<<<<<< HEAD
-     </div> -->
+
+     </div> 
       
       
         
@@ -73,13 +120,15 @@
             
             <div class="col-sm-12 col-md-12 col-lg-12 checkout">
                 <h3>Shopping Cart Summery</h3>
-=======
-     </div>
+
+            </div>
+        </div>
+    </div>
       
       <div class="container">
           <div class="col-sm-12 col-md-12 col-lg-12 cart">
               
->>>>>>> 79f82bcc09ea36f9e1c7c2c60305f3caea8364a2
+
                 <h4>Items in cart</h4>
                 <h4>Total</h4>
                 <button type="button" class="btn btn-info">Checkout</button>
