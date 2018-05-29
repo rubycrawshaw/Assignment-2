@@ -32,7 +32,6 @@ body {
     backface-visibility: hidden;
     margin-left: auto;
     margin-right: auto;
-    outline: black 1px solid;
     margin-bottom: 5px;
 }
 .middle{
