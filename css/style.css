@@ -32,7 +32,11 @@ body {
 }
 
 .jumbotron {
+<<<<<<< HEAD
   background-color: grey;
+=======
+  background-color: black;
+>>>>>>> e568d0ff85cb040006f208ec1e19a52e626d289a
   margin-top: 20px;
 }
 
@@ -47,11 +51,12 @@ text-align: center;
  }
 
 .mad {
-    background-color: #F0EFEF;
+    background-color: black;
     height: 350px;
     margin-left: auto;
     margin-right: auto;
     width: 1000px;
+    color: white;
 }
 
 .pink{
