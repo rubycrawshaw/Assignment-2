@@ -80,15 +80,25 @@
         <nav class="navbar navbar-inverse navbar-fixed-top">
              <div class="container-fluid d-flex justify-content-center">
                
-                 <a class="navbar-brand" href="index.html" style="color: white; font-size:40px">휴의 골판지</a>
+                 <a class="navbar-brand text-right col-xl-7 col-lg-7 col-md-8 col-sm-7  align-items-end" href="index.html" style="color: white; font-size:40px">휴의 골판지</a>
                 
-                   <a href="checkout.html" class="col-12 fas fa-shopping-cart fa-2x d-flex justify-content-end" style="color: white"></a>
+                   <a href="checkout.html?a=empty" class="align-items-end col-xl-5 col-5-lg col-md-4 col-sm-4 fas fa-shopping-cart fa-2x d-flex justify-content-end" style="color: white"></a> 
                  
             </div>
         </nav>
       </div>
       
-<h1 id="empty">empty</h1>
+    
+      <div class="container">
+        <div class="row no-gutters justify-content-center">
+            
+            <div class="col-sm-12 col-md-12 col-lg-12 empty" id="empty">
+                
+                <h3>Empty Cart</h3>
+
+            </div>
+        </div>
+      </div>
       
 <!--      <div class="container">
         <div class="row no-gutters justify-content-center">
@@ -101,39 +111,46 @@
      </div> -->
     
      <div id="full" class="container" style="display: none">
-        <div class="row no-gutters">
+        <div class="row no-gutters justify-content-center">
            
-            <div class="col-sm-12 col-md-12 col-lg-12 blue">
+            <div class="col-sm-12 col-md-12 col-lg-12 items">
+                
                 <h4>4mm Corrugated Cardboard</h4>
                 <h5>2400mm x 1200mm</h5>
-             </div> 
-
+                
+             </div>
             
         </div>
-
      </div> 
       
       
         
-    <div class="container">
+      <div class="container">
         <div class="row no-gutters justify-content-center">
             
             <div class="col-sm-12 col-md-12 col-lg-12 checkout">
+                
                 <h3>Shopping Cart Summary</h3>
 
             </div>
+            
         </div>
-    </div>
+      </div>
+      
       
       <div class="container">
-          <div class="col-sm-12 col-md-12 col-lg-12 cart">
-              
-
-                <h4 class="items_in_cart">Items In Cart</h4>
+        <div class="row no-gutters justify-content-center">
+            
+            <div class="col-sm-12 col-md-12 col-lg-12 cart">
+                
+                <h4>Items In Cart</h4>
                 <h4>Total</h4>
-                <button type="button" class="btn btn-info">Checkout</button>
-              
-          </div>
+
+            </div>
+            
+            <button type="button" class="btn btn-info">Checkout</button>
+            
+        </div>
       </div>
         
    </body>
