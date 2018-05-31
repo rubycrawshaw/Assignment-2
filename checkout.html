@@ -23,7 +23,7 @@
     <title>휴의 골판지</title>
         
       <style>
-        *{outline: cyan solid 1px}   
+        *{outline: cyan solid px}   
       </style>
       
 
@@ -33,6 +33,7 @@
     
         function prossess(){
             
+            var price = getParameterByName('p');
             var foo = getParameterByName('a');
             if(foo == null)
             {
@@ -42,7 +43,13 @@
             {
                 var h1full = document.getElementById('full');
                 var h1empty = document.getElementById('empty');
+                var priceLable = document.getElementById('priceLable');
                 
+                if(price == null)
+                {
+                    price = 0;
+                }
+                priceLable.innerHTML = 'Total: $' + price;   
                 
                 if(foo == 'empty'){
                     h1empty.style.display = "block";
@@ -139,22 +146,37 @@
       </div>
       
       
-      <div class="container">
+      <div id="full" class="container" style="display: none">
         <div class="row no-gutters justify-content-center">
             
             <div class="col-sm-12 col-md-12 col-lg-12 cart">
                 
                 <h4>Items In Cart</h4>
-                <h4>Total: $99.89</h4>
+                <h4>Total: $0</h4>
                 <h6>Free Shipping</h6>
 
             </div>
             
-            <button type="button" class="btn btn-info">Checkout</button>
-            
+            <button type="button" class="btn btn-default"><h4>Checkout</h4></button>
         </div>
-      
       </div>
+      
+        <div id="empty" class="container" style="display: ">
+        <div class="row no-gutters justify-content-center">
+            
+            <div class="col-sm-12 col-md-12 col-lg-12 cart">
+                
+                <h4>Items In Cart</h4>
+                <h4 id='priceLable'>Total: $99.89</h4>
+                <h6>Free Shipping</h6>
+
+            </div>
+            
+            <button type="button" class="btn btn-default"><h4>Checkout</h4></button>
+        </div>
+      </div>
+      
+      <div class="margin"></div>
       <div class="jumbotron no-gutters nopadding">
         <div class="container no-gutters nopadding">
           <div class="row no-gutters nopadding"> 

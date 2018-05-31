@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400');
 
-body {
-    background-color: #F0EFEF;
-}
+
 .cart{
     text-align: center;
     margin: 10px;
@@ -13,8 +11,16 @@ body {
     background-color: white;
     margin: 10px;
     height: 120px;
-    
-    }
+}
+
+.Store{
+    margin-bottom: 20px;
+}
+
+.margin{
+    margin-bottom: 40px;
+}
+
 .about{
     text-align: center;
 }
@@ -28,13 +34,16 @@ body {
     text-align: center;
 }
 .navblock {
-    height: 150px;
+    height: 100px;
 }
 
 .jumbotron {
-  background-color: grey;
-  background-color: black;
+  background-color: #F0EFEF;
   margin-top: 20px;
+}
+
+.est{
+    font-family: 'Secular One', sans-serif;
 }
 
 .header {
@@ -48,12 +57,11 @@ text-align: center;
  }
 
 .mad {
-    background-color: black;
+    background-color: #F0EFEF;
     height: 350px;
     margin-left: auto;
     margin-right: auto;
     width: 1000px;
-    color: white;
 }
 
 .pink{
@@ -105,7 +113,7 @@ text-align: center;
 }
 
 .text{
-    background-color: pink;
+    background-color: white;
     color: black;
     font-size: 16px;
     padding: 16px 32px;
@@ -169,9 +177,10 @@ text-align: center;
 
 .checkout {
     text-align: center;
-    background-color: skyblue;
+    background-color: black;
     margin: 10px;
     height: 60px;
+    color: white;
  }
 
 /* sm */
@@ -191,10 +200,7 @@ body {
 /* lg */
 @media (min-width:922px){
     
-body {
-    background-color: #F0EFEF;
-    }
-}
+
 
 .sorry{
     font-size: .5rem    
